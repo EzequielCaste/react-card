@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Card from "./Card";
 import "./CardDealer.css";
-import Spades24 from "../public/spades-24.png";
-import Spades16 from "../public/spades-16.png";
+import Spades24 from "./spades-24.png";
+import Spades16 from "./spades-16.png";
 
 const API_BASE_URL = "https://deckofcardsapi.com/api/deck";
 
