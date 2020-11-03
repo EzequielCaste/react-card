@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel&display=swap");
+
+body {
+  font-family: "Martel", Arial, sans-serif;
+  background-color: black;
+  color: white;
+}
+.App {
+  text-align: center;
+}
+.Card {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
