@@ -1,0 +1,15 @@
+footer {
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  font-size: 0.8rem;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  color: rgb(211, 211, 211);
+  background-color: rgb(78, 78, 78);
+}
+footer:hover {
+  cursor: pointer;
+  background-color: rgb(70, 70, 70);
+}

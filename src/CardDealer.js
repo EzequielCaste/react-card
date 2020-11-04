@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Card from "./Card";
 import "./CardDealer.css";
-import Spades24 from "./spades-24.png";
-import Spades16 from "./spades-16.png";
 
 const API_BASE_URL = "https://deckofcardsapi.com/api/deck";
 
@@ -37,16 +35,8 @@ export default function CardDealer() {
   return (
     <>
       <div className="Deck">
-        <p>
-          <img alt="spades" src={Spades24} />
-          Card Dealer
-          <img alt="spades" src={Spades24} />
-        </p>
-        <p>
-          <img alt="spades" src={Spades16} />
-          A little demo made with React
-          <img alt="spades" src={Spades16} />
-        </p>
+        <p className="Deck-title">♦ Card Dealer ♦</p>
+        <p className="Deck-subtitle">♦ A little demo made with React ♦</p>
 
         <button onClick={handleClick}>Get Card</button>
         <div className="Deck-cardarea">{cardComponents}</div>
